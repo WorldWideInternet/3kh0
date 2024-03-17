@@ -1,4 +1,23 @@
-<a href="1"><image src="1/meta/apple-touch-icon.png" width="5%" height="5%" ></a>
+<style>
+    .image-container {
+        width: 100%;
+        max-width: 200px; /* Adjust max-width as needed */
+        height: auto;
+        padding-bottom: 100%; /* Creates a square aspect ratio */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image fills the container */
+    }
+</style>
+<a href="1"><image src="1/meta/apple-touch-icon.png" class="image container" ></a>
 <a href=10-min-till-dawn>10 min till dawn</a>
 <a href="100ng">100 ng</a>
 <a href="1v1lol">1v1lol</a>
